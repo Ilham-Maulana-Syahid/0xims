@@ -6,10 +6,10 @@
 
 ## Status Saat Ini
 
-- **Posisi terakhir:** Phase 0 (dokumentasi)
-- **Tugas berikutnya:** TASK-005
-- **Alat yang terakhir bekerja:** -
-- **Catatan serah-terima:** -
+- **Posisi terakhir:** Phase 1 (setup proyek), TASK-013 selesai
+- **Tugas berikutnya:** TASK-014
+- **Alat yang terakhir bekerja:** Freebuff
+- **Catatan serah-terima:** Token warna (`bg`, `surface`, `border`, `text`, `muted`, `primary`, `primary-strong`, `primary-light`, `primary-soft`), radius (`rounded-tag/button/card`), dan font (`font-heading/body/label`) sudah tersedia di `globals.css`. Pakai token, jangan nilai langsung. TASK-007 (`README.md`) sengaja ditunda.
 
 > Perbarui bagian ini setiap selesai satu tugas atau saat berpindah alat (Freebuff ↔ Copilot).
 
@@ -28,11 +28,11 @@
 
 ## Phase 1: Setup Proyek
 
-- [ ] TASK-009 Buat proyek Next.js (TypeScript, Tailwind, App Router) tanpa menimpa `docs/`, `.gitignore`, `RULES.md`, `TASKS.md`
-- [ ] TASK-010 Pasang font (Space Grotesk, Inter, JetBrains Mono) lewat fitur font bawaan Next.js
-- [ ] TASK-011 Definisikan design token warna dan ukuran sesuai `DESIGN.md`
-- [ ] TASK-012 Pastikan skrip `lint`, `typecheck`, dan `build` berjalan
-- [ ] TASK-013 Buat struktur folder sesuai `ARCHITECTURE.md`
+- [x] TASK-009 Buat proyek Next.js (TypeScript, Tailwind, App Router) tanpa menimpa `docs/`, `.gitignore`, `RULES.md`, `TASKS.md`
+- [x] TASK-010 Pasang font (Space Grotesk, Inter, JetBrains Mono) lewat fitur font bawaan Next.js
+- [x] TASK-011 Definisikan design token warna dan ukuran sesuai `DESIGN.md`
+- [x] TASK-012 Pastikan skrip `lint`, `typecheck`, dan `build` berjalan
+- [x] TASK-013 Buat struktur folder sesuai `ARCHITECTURE.md`
 - [ ] TASK-014 Commit dan push
 - [ ] TASK-015 Hubungkan Vercel dan buat preview deployment pertama (tanpa rahasia)
 
