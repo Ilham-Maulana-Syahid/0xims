@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+/*
+  Design token proyek 0xims (DESIGN.md bagian 2, 3, dan 6).
+  Jangan menulis kode warna atau ukuran langsung di komponen: pakai token ini.
+*/
+
+@theme static {
+  /* Warna */
+  --color-bg: #0a0a0f;
+  --color-surface: #14141c;
+  --color-border: rgb(255 255 255 / 0.08);
+  --color-text: #f4f4f8;
+  --color-muted: #a1a1b5;
+  --color-primary: #8b5cf6;
+  --color-primary-strong: #7c3aed;
+  --color-primary-light: #a78bfa;
+  --color-primary-soft: #c4b5fd;
+
+  /* Bentuk */
+  --radius-tag: 0.5rem; /* 8px */
+  --radius-button: 0.75rem; /* 12px */
+  --radius-card: 1rem; /* 16px */
+}
+
+/* Variabel --font-* diisi oleh next/font di layout.tsx */
+@theme inline {
+  --font-heading: var(--font-space-grotesk);
+  --font-body: var(--font-inter);
+  --font-label: var(--font-jetbrains-mono);
+}
+
+:root {
+  /* Target sentuh minimum dan ukuran isi minimum di layar kecil */
+  --touch-target-min: 2.75rem; /* 44px */
+  --text-body-min: 1rem; /* 16px */
+
+  /* Cincin fokus keyboard */
+  --focus-ring-width: 2px;
+  --focus-ring-offset: 2px;
+}
