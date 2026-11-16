@@ -6,8 +6,8 @@
 
 ## Status Saat Ini
 
-- **Posisi terakhir:** Phase 1 (setup proyek), TASK-013 selesai
-- **Tugas berikutnya:** TASK-014
+- **Posisi terakhir:** Phase 1 (setup proyek), TASK-014 selesai
+- **Tugas berikutnya:** TASK-015
 - **Alat yang terakhir bekerja:** Freebuff
 - **Catatan serah-terima:** Token warna (`bg`, `surface`, `border`, `text`, `muted`, `primary`, `primary-strong`, `primary-light`, `primary-soft`), radius (`rounded-tag/button/card`), dan font (`font-heading/body/label`) sudah tersedia di `globals.css`. Pakai token, jangan nilai langsung. TASK-007 (`README.md`) sengaja ditunda.
 
@@ -33,7 +33,7 @@
 - [x] TASK-011 Definisikan design token warna dan ukuran sesuai `DESIGN.md`
 - [x] TASK-012 Pastikan skrip `lint`, `typecheck`, dan `build` berjalan
 - [x] TASK-013 Buat struktur folder sesuai `ARCHITECTURE.md`
-- [ ] TASK-014 Commit dan push
+- [x] TASK-014 Commit dan push
 - [ ] TASK-015 Hubungkan Vercel dan buat preview deployment pertama (tanpa rahasia)
 
 ## Phase 2: Fondasi

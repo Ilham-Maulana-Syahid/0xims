@@ -8,7 +8,7 @@
 - **Fase:** Phase 1, setup proyek
 - **Kode aplikasi:** proyek Next.js sudah dibuat (TASK-009), masih halaman kosong bawaan scaffold
 - **Lingkungan:** Windows dengan PowerShell, folder proyek `$HOME\projects\0xims`; Node.js v26.13.1, npm 11.20.0
-- **Repository:** GitHub `0xims`, cabang `main`, terhubung; semua dokumen perencanaan sudah ter-commit. Perubahan TASK-009 belum di-commit (menunggu TASK-014).
+- **Repository:** GitHub `0xims`, cabang `main`, terhubung; semua dokumen perencanaan dan pekerjaan Phase 1 sudah ter-push ke `origin/main`.
 - **Identitas Git:** memakai email noreply GitHub
 
 ## Sudah Selesai
@@ -23,10 +23,11 @@
 - `npm run lint` dan `npm run build` lolos di root proyek
 - **TASK-012 selesai:** skrip `lint` (`eslint`), `typecheck` (`tsc --noEmit`), dan `build` (`next build`) semuanya berjalan dan lolos. `typecheck` sudah diuji menangkap error tipe (exit 2) dengan file probe sementara yang sudah dihapus.
 - **TASK-013 selesai:** struktur folder dibuat sesuai `ARCHITECTURE.md` — `src/{components,data,services,lib,types,utils}`, `src/features/{hero,skills,projects,certificates,library,contact,chatbot}`, `tests/`, dan `public/{sertifikat,belajar,cv}`. Folder kosong ditandai `.gitkeep` (17 file) dan dihapus saat folder terisi file sungguhan.
+- **TASK-014 selesai:** pekerjaan Phase 1 di-commit dan di-push ke `origin/main` (commit `3da25da` scaffold, `8ab69be` status dokumen). Working tree bersih.
 
 ## Tugas Saat Ini
 
-- **TASK-014:** commit dan push
+- **TASK-015:** hubungkan Vercel dan buat preview deployment pertama
 
 ## Hal yang Perlu Diperhatikan
 
